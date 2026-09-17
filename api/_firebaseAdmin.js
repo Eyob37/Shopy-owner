@@ -15,6 +15,7 @@ function getAdminApp() {
   const databaseURL = process.env.FIREBASE_DATABASE_URL;
 
   if (privateKey) {
+ alert(privateKey);
     privateKey = privateKey.replace(/^['"]|['"]$/g, "").replace(/\\n/g, "\n");
   }
 
