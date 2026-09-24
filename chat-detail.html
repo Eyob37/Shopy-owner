@@ -447,7 +447,8 @@
                 to: userId,
                 message: text,
                 time: Date.now(),
-                seen: false
+                seen: false,
+                edited: false
             };
             
             await set(newMessageRef, messageData);
